@@ -58,10 +58,11 @@ class DishDetail extends Component {
 
         return (
         		/* Calling the above functions and passing the selected dish from MenuComponent as props */
-
+                <div className="container">
                 <div className="row">
                 	{this.renderDish(this.props.selectedMenuDish)}
                 	{this.renderComments(this.props.selectedMenuDish)}
+                </div>
                 </div>
 
         );
